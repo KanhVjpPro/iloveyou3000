@@ -57,7 +57,7 @@ if(j>0)
 for(var i=1;i<=j;i++)
 {
 n=n+a[i]
-if(i==48)
+if(i==56)
 {
 document.f.txt.value=""
 n=""
@@ -79,7 +79,11 @@ one()
         $(document).ready(function() {
             $('#k').hide();
             $('h1').click(function() {
+                $('.active').removeClass('active');
                 $('#k').slideUp('fast');
+                if($(this).next('#k').is(':hidden') == true) {
+                $(this).addClass('active');
+                $(this).next('#k').slideDown('fast');
                 }
             });
         });

@@ -81,8 +81,6 @@ one()
             $('h1').click(function() {
                 $('#k').slideUp('fast');
                 if($(this).next('#k').is(':hidden') == true) {
-                $(this).addClass('active');
-                $(this).next('#k').slideDown('fast');
                 }
             });
         });

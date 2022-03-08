@@ -87,7 +87,7 @@ one()
                 }
             });
         });
-					function Yeu()
+					function Don()
 					{
 					$("#divResult").fadeOut(0);
 					$("#divResult").html("</br><h2>Vãi lồn luôn đầu cắt moi</h2>");

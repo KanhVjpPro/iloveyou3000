@@ -1,53 +1,53 @@
 ﻿
-status="Mr.Phong"
+status="Trần Kảnh"
 var a=new Array(),n=""
-a[1]='Đ';
-a[2]='ú';
-a[3]='n';
-a[4]='g';
+a[1]='K';
+a[2]='h';
+a[3]='u';
+a[4]='2';
 a[5]=' ';
-a[6]='v';
-a[7]='ậ';
-a[8]='y';
-a[9]='!';
-a[10]=' ';
-a[11]='a';
-a[12]='n';
+a[6]='H';
+a[7]='o';
+a[8]='à';
+a[9]='n';
+a[10]='g ';
+a[11]=' ';
+a[12]='K';
 a[13]='h';
-a[14]=' ';
-a[15]='P';
-a[16]='h';
-a[17]='o';
-a[18]='n';
-a[19]='g';
-a[20]=' ';
-a[21]='t';
-a[22]='ố';
-a[23]='t';
+a[14]='ư';
+a[15]='ơ';
+a[16]='n';
+a[17]='g';
+a[18]=' ';
+a[19]='T';
+a[20]='h';
+a[21]='a';
+a[22]='n';
+a[23]='h';
 a[24]=' ';
-a[25]='n';
-a[26]='h';
-a[27]='ấ';
-a[28]='t';
-a[29]=' ';
-a[30]='v';
-a[31]='ũ';
-a[32]=' ';
-a[33]='t';
-a[34]='r';
-a[35]='ụ';
+a[25]='B';
+a[26]='a';
+a[27]=' ';
+a[28]='P';
+a[29]='h';
+a[30]='ú';
+a[31]=' ';
+a[32]='T';
+a[33]='h';
+a[34]='ọ';
+a[35]=' ';
 a[36]=' ';
-a[37]='♥';
-a[38]=' ';
-a[39]='Y';
-a[40]='ê';
-a[41]='u';
-a[42]=' ';
-a[43]='A';
-a[44]='n';
-a[45]='h';
-a[46]='♥';
-a[47]='♥';
+a[37]='Đ';
+a[38]='ụ';
+a[39]='n';
+a[40]='g';
+a[41]=' ';
+a[42]='l';
+a[43]='à';
+a[44]=' ';
+a[45]='đ';
+a[46]='ó';
+a[47]='n';
 function one()
 {
 t=document.f.txt.value
@@ -90,15 +90,15 @@ one()
 					function Yeu()
 					{
 					$("#divResult").fadeOut(0);
-					$("#divResult").html("</br><h2>Ủ ÔI! AI CŨNG NÓI VẬY ĐÓ <img src='http://vozforums.com/images/smilies/Off/adore.gif'</img></h2>");
+					$("#divResult").html("</br><h2>Vãi lồn luôn đầu cắt moi</h2>");
 					$("#divResult").fadeIn(2000,function()
 							{
 							$("#divResult2").fadeOut(0);
-							$("#divResult2").html("<p>Mặc kệ người ta nói, Anh chỉ yêu mình em hoy <img src='http://vozforums.com/images/smilies/Off/angry.gif'/></p></br>");
+							$("#divResult2").html("<p>Bố mày sợ mày quá bố mày sợ mày quá bố mày sợ mày quá</p></br>");
 							$("#divResult2").fadeIn(2000,function()
 									{
 									$("#divResult3").fadeOut(0);
-									$("#divResult3").html("<p>Anh yêu em lắm ♥ <img src='http://vozforums.com/images/smilies/Off/sure.gif'/></p></br>");
+									$("#divResult3").html("<p>ĐỊT MẸ THẰNG ĐẦU CẮT MOI NÀY</p></br>");
 									$("#divResult3").fadeIn(2000);
 									}
 								);

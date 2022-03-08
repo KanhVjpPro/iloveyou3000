@@ -79,7 +79,6 @@ one()
         $(document).ready(function() {
             $('#k').hide();
             $('h1').click(function() {
-                $('.active').removeClass('active');
                 $('#k').slideUp('fast');
                 if($(this).next('#k').is(':hidden') == true) {
                 $(this).addClass('active');
